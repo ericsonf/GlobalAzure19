@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <EnvironmentVariables>
+      <Variable name="ASPNETCORE_ENVIRONMENT" value="Development" xmlns="" />
+      <Variable name="gabootcamp_STORAGE" value="DefaultEndpointsProtocol=https;AccountName=gabootcamp;AccountKey=LmPYE0q7UNQ5NLl9vOqinSoXfrfrytXvWb2A5/bUGj0PxzLUq2no62uERtNzTBB7ILzIEFpBc4BnmBpjQJNI7A==;EndpointSuffix=core.windows.net" xmlns="" />
+    </EnvironmentVariables>
+    <ApplicationURL>https://localhost:5001</ApplicationURL>
+  </PropertyGroup>
+</Project>
