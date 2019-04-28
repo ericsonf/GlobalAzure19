@@ -1,7 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalAzure19", "GlobalAzure19\GlobalAzure19.csproj", "{2501CC33-BF11-43DD-9B68-27FCDE3CB187}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalAzure19", "GlobalAzure19\GlobalAzure19.csproj", "{2501CC33-BF11-43DD-9B68-27FCDE3CB187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobTriggerFunction", "BlobTriggerFunction\BlobTriggerFunction.csproj", "{ABFA168D-4E74-42E9-9CC9-5AF71DF586A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +16,15 @@ Global
 		{2501CC33-BF11-43DD-9B68-27FCDE3CB187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2501CC33-BF11-43DD-9B68-27FCDE3CB187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2501CC33-BF11-43DD-9B68-27FCDE3CB187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFA168D-4E74-42E9-9CC9-5AF71DF586A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFA168D-4E74-42E9-9CC9-5AF71DF586A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFA168D-4E74-42E9-9CC9-5AF71DF586A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFA168D-4E74-42E9-9CC9-5AF71DF586A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEBEF5D2-CF78-4381-BFB4-64B777013D47}
 	EndGlobalSection
 EndGlobal
