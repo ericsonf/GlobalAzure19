@@ -30,7 +30,7 @@
                 $.getJSON(uri).done(function (data) {
                     $.each(data, function (key, value) {
                         $("#result").append("<div class='row list-row'>");
-                        $("#result").append("<div class='col-md-12' style='text-align: left;'><label>" + Object.values(value)[0] + "</label></div>");
+                        $("#result").append("<div class='col-md-12' style='text-align: left;'><a href='" + Object.values(value)[1] + "'>" + Object.values(value)[0] + "</a></div>");
                         $("#result").append("</div>");
                     });
                 });

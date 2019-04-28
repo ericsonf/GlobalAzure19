@@ -41,7 +41,7 @@ namespace GlobalAzure19.Services
                 blobContinuationToken = results.ContinuationToken;
                 foreach (IListBlobItem item in results.Results)
                 {
-                    blobs.Add(new BlobFile { BlolbUrl = item.Uri.ToString() });
+                    blobs.Add(new BlobFile { Name = item.Uri.Segments.GetValue(item.Uri.Segments.Length -1).ToString() , BlolbUrl = item.Uri.ToString() });
                 }
             } while (blobContinuationToken != null);
 
